@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: rgb(53, 52, 52);
+}
+main{
+    background-image:url(assets/Background.jpg);
+    height: 115vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blackbox{
+    position: absolute;
+    height: 115vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.nav{
+    padding-top:20px ;
+    height: 50px;
+    width: 100%;
+}
+
+path{
+    height: 100px;
+}
+.logo{
+    height: 40px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+#lang{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding-inline:25px;
+    padding-block:5px;
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sn{
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-inline:15px;
+    padding-block:8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.head{
+    text-align: center;
+    text-wrap: wrap;
+    position: relative;
+    top: 220px;
+}
+.head h1{
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+}
+.para1{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.para2{
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+#mail{
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 3px;
+    padding-inline: 100px;
+    padding-block: 17px;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color:rgba(27, 27, 27, 0.753) ;
+}
+.gs{
+    margin-left: 13px;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-inline: 20px;
+}
+.arrow{
+    width: 25px;
+    position: relative;
+    top: 4px;
+    left: 0px;
+    color: white;
+}
+.content{
+    display: grid;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 20vh;
+}
+.box{
+    background-color: rgb(0, 0, 0);
+    height:580px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vid1{
+    position: absolute;
+    top: 157px;
+    margin-left: 79px;
+}
+.vid1 .video1{
+    width: 91%;
+}
+.vid2{
+    position: absolute;
+    margin-left: 120px;
+    top: 1280px;
+    z-index: 0;
+}
+
+.vid2 .video2{
+    width: 85%;
+}
+
+h2{
+    color: white;
+    font-weight: 900;
+    font-size: 55px;
+    padding-bottom: 20px ;
+    width: 540x;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.preview{
+    color: white;
+    font-size: 25px;
+    width:500px ;
+
+}
+.tv{
+    position: relative;
+    width: 600px;
+    z-index: 10;
+}
+
+.section{
+    display: grid;
+    grid-template-rows: 200px repeat(5, 110px) 111px 60px;
+    justify-content: center;
+    height: 1100px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+.sec{
+    background-color: rgb(45, 45, 45);
+    position: relative;
+    /* top: 40px; */
+    height: 100px;
+    margin-block: 10px;
+    padding-inline: 30px;
+    font-size: 25px;
+    right: 14px;
+    width: 1000px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition:background-color 250ms cubic-bezier(0.9, 0, 0.51, 1) 0s;
+}
+.section h2{
+    position: relative;
+    top: 50px;
+    justify-self: center;
+}
+.sec:hover{
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+.sec img:active{
+    transform: rotate(45deg);
+
+}
+.section p{
+    color: white;
+    font-size: 23px;
+    justify-self: center;
+    position: relative;
+    top: 30px;
+}
+.entry{
+    position: relative;
+    top: 30px;
+    /* width: 20px; */
+    height: 10px;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.gs2{
+    padding: 12px;
+}
+.foot{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 5px;
+    height: 40vh;
+}
